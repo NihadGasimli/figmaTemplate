@@ -770,14 +770,9 @@
 
 /*end of section6*/
 /*ert*/
-ert {
-    background-image: url(../images/Ellipse\ 7.svg);
-    background-color: #fff;
-    display: flex;
-    background-size: 20px;
-    height: 100px;
-    padding: 0px;
+ert img{
     margin-top: 52px;
+    width: 100%;
 }
 
 /*end of ert*/
