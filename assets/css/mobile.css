@@ -1,11 +1,28 @@
 @media (max-width: 680px) {
-    .navv h2{
+    .navv h2 {
         display: none;
     }
-    .sec1 .rightSide img {
-        width: 325px;
+
+    .sec1 .rightSide {
+        display: flex;
+        align-items: center;
         margin-top: 38px;
     }
+
+    .sec1 .rightSide .first {
+        width: 290.855px;
+        height: 228.882px;
+        margin-top: 38px;
+        position: absolute;
+        left: 60px;
+       
+    }
+
+    .sec1 .rightSide .second {
+        width: 325px;
+        height: 160.735px;
+        position: relative;
+    } 
 
     .sec1 .leftSide {
         align-items: center;
@@ -37,7 +54,7 @@
     }
 
     .sec1 {
-        margin-bottom: -100px;
+        margin-bottom: -200px;
     }
 
     .sec2 .sec2Heading {
@@ -76,13 +93,36 @@
         row-gap: 23px;
         margin-top: 10px;
     }
-    .sec3 , .sec4 , .sec5 , .sec6 , .sec7 , ert{
+
+    .sec2 .cards .card {
+        width: 319px;
+        height: 287px;
+    }
+
+    .sec2 .cards .card h3 {
+        width: 199px;
+        height: 32px;
+    }
+
+    .sec2 .cards .card p {
+        width: 310px;
+        height: 73px;
+    }
+
+    .sec3,
+    .sec4,
+    .sec5,
+    .sec6,
+    .sec7,
+    ert {
         display: none;
     }
-    footer ul{
+
+    footer ul {
         flex-direction: column;
         align-items: center;
     }
+
     footer ul li:nth-child(2) {
         margin-left: 0;
     }
